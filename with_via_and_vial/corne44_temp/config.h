@@ -1,0 +1,15 @@
+#pragma once
+
+#define FORCE_NKRO
+
+#define MASTER_LEFT
+
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 6
+
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP0
+#define SERIAL_USART_RX_PIN GP1
+
+#define MATRIX_ROW_PINS { GP14, GP13, GP12, GP11 }
+#define MATRIX_COL_PINS { GP10, GP29, GP28, GP27, GP26, GP15 }
